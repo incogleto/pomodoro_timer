@@ -1,0 +1,44 @@
+body{
+    background-color: #FCD1E3;
+}
+
+#pomodoro{
+  text-align: center;
+  width: 500px;
+  margin: 0 auto;
+  font-size: 25px;
+  color: #3e98c7;
+  border: 2px solid #3e98c7;
+  border-radius: 10px;
+  padding: 20px;
+  background-color:white;
+}
+
+#settings{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.setting-panel{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100px;
+  margin: 0 auto;
+  color: #3e98c7;
+}
+
+.setting-label{
+  grid-row: 1;
+}
+
+#controls{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 200px;
+  margin: 0 auto;
+  font-size: 2em;
+}
+
+#timer-label{
+ color: white;
+}
